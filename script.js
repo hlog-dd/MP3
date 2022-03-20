@@ -345,7 +345,7 @@ const app = {
     // Tạo ra hàm start trong app
     start: function() {
         // Gan config vao khi duoc chay
-        loadConfig();
+        this.loadConfig();
 
         // Dinh nghia cac thuoc tinh cho obj
         this.defineProperties();
